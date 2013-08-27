@@ -1,5 +1,5 @@
 # coding: utf-8
-require 'rubysl/optparse/version'
+require './lib/rubysl/optparse/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rubysl-optparse"
@@ -16,7 +16,6 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "redcard", "~> 1.0"
   spec.add_runtime_dependency "rubysl-shellwords", "~> 2.0"
 
   spec.add_development_dependency "bundler", "~> 1.3"
